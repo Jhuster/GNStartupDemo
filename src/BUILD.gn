@@ -1,5 +1,5 @@
-executable("hello_world") {
+source_set("hello_world") {
   sources = [
-    "hello_world.c",
+    "hello_world.c"
   ]
 }

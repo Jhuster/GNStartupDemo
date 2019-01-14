@@ -1,5 +1,3 @@
-group("default") {
-  deps = [
-    "//src:hello_world",
-  ]
+group("executable") {
+    deps = [ "//tests:test" ]
 }

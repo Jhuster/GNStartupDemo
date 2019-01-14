@@ -1,0 +1,8 @@
+executable("test") {
+  sources = [
+    "test.c",
+  ]
+  deps = [
+    "//src:hello_world",
+  ]
+}
